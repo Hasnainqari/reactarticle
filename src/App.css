@@ -32,7 +32,30 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: Josefin;
+  src: url(./assest/font/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+
+
+body {
+  margin-top: 10px;
+  font-family: Josefin;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 900;
+  padding-left: 20px;
+  color: blue;
+}
+
+h1 {
+  padding-left: 20px;
 }
